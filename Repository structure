@@ -1,0 +1,24 @@
+fer-internship/
+├─ .gitignore
+├─ README.md
+├─ requirements.txt
+├─ LICENSE
+├─ data/ # place dataset here (not included)
+│ └─ fer2013.csv # or images folder
+├─ notebooks/
+│ └─ 01_EDA_and_Tiny_Train.ipynb
+├─ src/
+│ ├─ __init__.py
+│ ├─ dataset.py
+│ ├─ model.py
+│ ├─ train.py
+│ ├─ evaluate.py
+│ ├─ gradcam.py
+│ ├─ inference.py
+│ └─ utils.py
+├─ app/
+│ └─ app.py
+├─ saved_models/ # trained models will be saved here
+├─ reports/
+│ └─ report_template.md
+└─ README.md
